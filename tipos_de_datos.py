@@ -75,7 +75,7 @@ posición 78 de la lista `apellidos_list`.
 """
 
 apellidos_list2= list(apellidos_tuple)
-apellidos_list2.extend(apellidos_list[78])
+apellidos_list2.append(apellidos_list[78])
 
 """Eliminar el 4 elemento de la variable `apellidos_list2`.
 """
@@ -88,7 +88,7 @@ del apellidos_list2[apellidos_list2.index("  MORALES")]
 """Agregar (concatenar) a la variable `apellidos_list2`, la lista obtenida del
 elemento 56 al 70 de la variable `apellidos_list`.
 """
-apellidos_list2= apellidos_list2 + apellidos_list[56:71:1]
+apellidos_list2= apellidos_list2 + apellidos_list[56:71]
 
 """Invertir el orden actual de la variable `apellidos_list2`.
 """
