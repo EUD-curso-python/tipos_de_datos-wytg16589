@@ -168,6 +168,5 @@ apellidos_dict.popitem()
 """Sacar el valor de la llave "no_existe" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_none`.
 """
-apellidos_dict.setdefault("no_existe")
-apellido_none=apellidos_dict.pop("no_existe")
+apellido_none=apellidos_dict.pop("no_existe",None)
 
